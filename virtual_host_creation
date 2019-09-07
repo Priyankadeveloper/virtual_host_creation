@@ -1,0 +1,21 @@
+open cmd put command=>sudo nano /private/etc/hosts
+ctrl+x for giving ermission yes or not
+open local server folder xampfiles/etc/http.conf
+
+uncomment that file==>include[xampfile hosts/etc/extra/httpd-vhosts
+
+then go etc/extra/httpd-vhosts.conf
+<virtual host *:80>
+serverName localhost
+DocumentRoot "/App../htdocs"
+<directory "- // -">
+serversignature off
+
+-----------------------
+helping url
+----------------------
+New host set in localhost
+https://codesleepshred.com/access-forbidden-xampp-on-macos-sierra/
+
+https://gist.github.com/wykydtronik/8c9e3b701ac138b19a7d012a34d34c6c
+
